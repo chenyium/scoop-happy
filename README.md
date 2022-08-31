@@ -1,23 +1,13 @@
-# Scoop Bucket Template
+# Scoop Happy
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+[![Tests](https://github.com/chenyium/scoop-happy/actions/workflows/ci.yml/badge.svg)](https://github.com/chenyium/scoop-happy/actions/workflows/ci.yml) [![Excavator](https://github.com/chenyium/scoop-happy/actions/workflows/excavator.yml/badge.svg)](https://github.com/chenyium/scoop-happy/actions/workflows/excavator.yml) [![Mentioned in Awesome Scoop](https://awesome.re/mentioned-badge.svg)](https://github.com/scoopinstaller/awesome-scoop)
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+A bucket for [Scoop](http://scoop.sh), for happy.
 
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add <bucketname> https://github.com/<username>/<bucketname>`. To install, do `scoop install <manifest>`.
-
-How do I contribute new manifests?
-----------------------------------
-
-To make a new manifest contribution, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
-
-----
-
-#### To use this template
-
-- Modify the Readme.md and the bin/auto-pr.ps1 files accordingly.
-- Enable GitHub Actions for this repository.
+``` shell
+scoop bucket add happy https://github.com/chenyium/scoop-happy.git
+scoop install vim-desktop
+```
