@@ -10,4 +10,5 @@ How do I install these manifests?
 ``` shell
 scoop bucket add happy https://github.com/chenyium/scoop-happy.git
 scoop install vim-desktop
+scoop install hunt-and-peck
 ```
